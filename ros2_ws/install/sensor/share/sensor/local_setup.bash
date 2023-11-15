@@ -1,0 +1,1 @@
+/home/damber/ros_eris/ros2_ws/build/sensor/ament_cmake_environment_hooks/local_setup.bash

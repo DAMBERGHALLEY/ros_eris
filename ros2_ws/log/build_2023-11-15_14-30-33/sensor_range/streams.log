@@ -1,0 +1,31 @@
+[0.073s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor_range': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8
+[0.090s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.199s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.476s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.562s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.605s] -- Configuring done
+[0.607s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.607s]   Cannot find source file:
+[0.607s] 
+[0.607s]     src/sensor_range.cpp
+[0.608s] 
+[0.608s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.608s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.608s] 
+[0.608s] [0m
+[0.608s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.608s]   No SOURCES given to target: sensor_range
+[0.608s] 
+[0.608s] [0m
+[0.608s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.615s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.616s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor_range' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8

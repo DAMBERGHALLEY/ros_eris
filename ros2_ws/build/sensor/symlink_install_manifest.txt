@@ -1,0 +1,16 @@
+/home/damber/ros_eris/ros2_ws/install/sensor/lib/sensor/range
+/home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/package_run_dependencies/sensor
+/home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/parent_prefix_path/sensor
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/ament_prefix_path.sh
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/ament_prefix_path.dsv
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/path.sh
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/path.dsv
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.bash
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.sh
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.zsh
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.dsv
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/package.dsv
+/home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/packages/sensor
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/cmake/sensorConfig.cmake
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/cmake/sensorConfig-version.cmake
+/home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/package.xml

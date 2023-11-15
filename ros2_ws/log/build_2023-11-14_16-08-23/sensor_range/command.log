@@ -1,0 +1,2 @@
+Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor_range': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1086  . install/local_setup.bash /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8
+Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor_range' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1086  . install/local_setup.bash /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8

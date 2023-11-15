@@ -1,0 +1,37 @@
+[0.070s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor_range': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8
+[0.090s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.213s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.276s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.277s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.469s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.554s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.597s] -- Configuring done
+[0.605s] -- Generating done
+[0.606s] -- Build files have been written to: /home/damber/ros_eris/ros2_ws/build/sensor_range
+[0.635s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_range.dir/src/range.cpp.o[0m
+[2.268s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.268s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:15:49:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kmin_range_[m[K’
+[2.269s]    15 |         : Node("minimal_publisher"), count_(0), [01;31m[Kmin_range_[m[K(10), max_range_(20.0)
+[2.269s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[2.269s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:15:65:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kmax_range_[m[K’
+[2.269s]    15 | : Node("minimal_publisher"), count_(0), min_range_(10), [01;31m[Kmax_range_[m[K(20.0)
+[2.269s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[2.269s] 
+[2.282s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.282s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:32:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range_[m[K’ was not declared in this scope
+[2.282s]    32 |         message.min_range = static_cast<float>([01;31m[Kmin_range_[m[K);
+[2.282s]       |                                                [01;31m[K^~~~~~~~~~[m[K
+[2.286s] [01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:33:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range_[m[K’ was not declared in this scope
+[2.286s]    33 |         message.max_range = static_cast<float>([01;31m[Kmax_range_[m[K);
+[2.286s]       |                                                [01;31m[K^~~~~~~~~~[m[K
+[2.869s] gmake[2]: *** [CMakeFiles/sensor_range.dir/build.make:76: CMakeFiles/sensor_range.dir/src/range.cpp.o] Error 1
+[2.869s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sensor_range.dir/all] Error 2
+[2.869s] gmake: *** [Makefile:146: all] Error 2
+[2.871s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor_range' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8

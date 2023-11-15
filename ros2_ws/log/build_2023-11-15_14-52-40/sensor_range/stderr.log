@@ -1,0 +1,7 @@
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_range_msgs/msg/range.hpp: No such file or directory
+    7 | #include [01;31m[K"sensor_range_msgs/msg/range.hpp"[m[K  // Fix the include path
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/range.dir/build.make:76: CMakeFiles/range.dir/src/range.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/range.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

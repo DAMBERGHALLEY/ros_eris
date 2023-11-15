@@ -1,0 +1,18 @@
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:15:49:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kmin_range_[m[K’
+   15 |         : Node("minimal_publisher"), count_(0), [01;31m[Kmin_range_[m[K(10), max_range_(20.0)
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:15:65:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kmax_range_[m[K’
+   15 | : Node("minimal_publisher"), count_(0), min_range_(10), [01;31m[Kmax_range_[m[K(20.0)
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:32:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_range_[m[K’ was not declared in this scope
+   32 |         message.min_range = static_cast<float>([01;31m[Kmin_range_[m[K);
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:33:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_range_[m[K’ was not declared in this scope
+   33 |         message.max_range = static_cast<float>([01;31m[Kmax_range_[m[K);
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sensor_range.dir/build.make:76: CMakeFiles/sensor_range.dir/src/range.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sensor_range.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

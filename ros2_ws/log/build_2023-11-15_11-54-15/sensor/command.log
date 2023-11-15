@@ -1,0 +1,6 @@
+Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/damber/ros_eris/ros2_ws/src/sensor_range -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/damber/ros_eris/ros2_ws/install/sensor
+Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/damber/ros_eris/ros2_ws/src/sensor_range -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/damber/ros_eris/ros2_ws/install/sensor
+Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor -- -j8 -l8
+Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor -- -j8 -l8
+Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor
+Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor

@@ -1,0 +1,24 @@
+[0.061s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor_range': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1168  ros2 run sensor_range /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target range[0m
+[0.103s] [100%] Built target range
+[0.115s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor_range' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1168  ros2 run sensor_range /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor_range -- -j8 -l8
+[0.155s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor_range': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1168  ros2 run sensor_range /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor_range
+[0.162s] -- Install configuration: ""
+[0.162s] -- Execute custom install script
+[0.163s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/lib/sensor_range/range
+[0.163s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/ament_index/resource_index/package_run_dependencies/sensor_range
+[0.163s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/ament_index/resource_index/parent_prefix_path/sensor_range
+[0.163s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/environment/ament_prefix_path.sh
+[0.163s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/environment/path.sh
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/environment/path.dsv
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/local_setup.bash
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/local_setup.sh
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/local_setup.zsh
+[0.164s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/local_setup.dsv
+[0.164s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/package.dsv
+[0.175s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/ament_index/resource_index/packages/sensor_range
+[0.175s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/cmake/sensor_rangeConfig.cmake
+[0.175s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/cmake/sensor_rangeConfig-version.cmake
+[0.175s] -- Up-to-date symlink: /home/damber/ros_eris/ros2_ws/install/sensor_range/share/sensor_range/package.xml
+[0.177s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor_range' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble sexy_bash_prompt_last_command= 1168  ros2 run sensor_range /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor_range

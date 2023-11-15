@@ -1,0 +1,31 @@
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_range_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Ksensor_msgs[m[K’?
+   34 |     rclcpp::Publisher<[01;31m[Ksensor_range_msgs[m[K::msg::Range>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Ksensor_msgs[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |     rclcpp::Publisher<sensor_range_msgs::msg::Range[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:34:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |     rclcpp::Publisher<sensor_range_msgs::msg::Range>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:34:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   34 |     rclcpp::Publisher<sensor_range_msgs::msg::Range>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                                 [01;31m[K^~~~~~~~~~[m[K
+      |                                                                 [32m[Krmw_publisher_t[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   16 |         [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::Range>("topic", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   30 |         [01;31m[Kpublisher_[m[K->publish(sensor);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/damber/ros_eris/ros2_ws/src/sensor_range/src/range.cpp:30:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor[m[K’ was not declared in this scope
+   30 |         publisher_->publish([01;31m[Ksensor[m[K);
+      |                             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/range.dir/build.make:76: CMakeFiles/range.dir/src/range.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/range.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

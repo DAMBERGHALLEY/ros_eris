@@ -1,0 +1,72 @@
+[0.073s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/damber/ros_eris/ros2_ws/src/sensor_range -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/damber/ros_eris/ros2_ws/install/sensor
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.536s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.565s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.573s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.719s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.740s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.787s] -- Looking for pthread.h
+[0.854s] -- Looking for pthread.h - found
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE  
+[1.028s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.120s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.188s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.188s] -- Configured cppcheck include dirs: 
+[1.188s] -- Configured cppcheck exclude dirs and/or files: 
+[1.189s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.192s] -- Added test 'lint_cmake' to check CMake code style
+[1.193s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.201s] -- Added test 'uncrustify' to check C / C++ code style
+[1.201s] -- Configured uncrustify additional arguments: 
+[1.202s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.214s] -- Generating done
+[1.216s] -- Build files have been written to: /home/damber/ros_eris/ros2_ws/build/sensor
+[1.223s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/damber/ros_eris/ros2_ws/src/sensor_range -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/damber/ros_eris/ros2_ws/install/sensor
+[1.226s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor -- -j8 -l8
+[1.272s] [ 50%] [32mBuilding CXX object CMakeFiles/range.dir/src/range.cpp.o[0m
+[4.265s] [100%] [32m[1mLinking CXX executable range[0m
+[4.419s] [100%] Built target range
+[4.430s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/damber/ros_eris/ros2_ws/build/sensor -- -j8 -l8
+[4.459s] Invoking command in '/home/damber/ros_eris/ros2_ws/build/sensor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor
+[4.465s] -- Install configuration: ""
+[4.465s] -- Execute custom install script
+[4.465s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/lib/sensor/range
+[4.473s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/package_run_dependencies/sensor
+[4.480s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/parent_prefix_path/sensor
+[4.486s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/ament_prefix_path.sh
+[4.492s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/ament_prefix_path.dsv
+[4.498s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/path.sh
+[4.504s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/environment/path.dsv
+[4.510s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.bash
+[4.516s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.sh
+[4.523s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.zsh
+[4.532s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/local_setup.dsv
+[4.540s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/package.dsv
+[4.546s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/ament_index/resource_index/packages/sensor
+[4.553s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/cmake/sensorConfig.cmake
+[4.559s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/cmake/sensorConfig-version.cmake
+[4.565s] -- Symlinking: /home/damber/ros_eris/ros2_ws/install/sensor/share/sensor/package.xml
+[4.573s] Invoked command in '/home/damber/ros_eris/ros2_ws/build/sensor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/damber/ros_eris/ros2_ws/build/sensor
